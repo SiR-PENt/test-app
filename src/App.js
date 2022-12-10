@@ -57,7 +57,7 @@ function App() {
       <section>
       <Header/> 
       <div className="relative h-1/2">
-        <img src={Hero} alt='Hero Image' className='w-full object-cover'/>
+        <img src={Hero} alt='Hero' className='w-full object-cover'/>
         <div className=" absolute pl-0 lg:pl-12 top-0 left-0 w-full h-full flex
         justify-center lg:justify-start items-center">
         <p className="w-60 text-3xl md:text-6xl text-white lg:mb-12 text-center lg:text-left">Watch Something Incredible</p>
@@ -76,7 +76,7 @@ function App() {
 
       <main className="pl-4 lg:pl-12 pb-6 lg:pb-12">
      {
-      
+
      ( searching && searchTerm.length > 0) ? 
       <p>{errorMessage}</p> :
 

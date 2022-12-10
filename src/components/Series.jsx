@@ -41,7 +41,7 @@ export default function Series ( { seriesData }) {
                     return (
                      <SwiperSlide key={imdbID} className='w-64 h-64'>
                         <div className='rounded-lg overflow-hidden'>
-                        <img src={Poster} alt='Image Poster' className='w-full h-64 object-cover'/>
+                        <img src={Poster} alt='Poster' className='w-full h-64 object-cover'/>
                         </div>
                         <p className='text-center mt-1'>{Title}</p>
                      </SwiperSlide>
